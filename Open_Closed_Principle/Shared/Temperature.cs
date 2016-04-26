@@ -48,5 +48,10 @@ namespace Open_Closed_Principle.Shared
 
             return false;
         }
+
+        public override int GetHashCode()
+        {
+            return (GetType().ToString() + Value.GetHashCode() + Unit.GetHashCode()).GetHashCode();
+        }
     }
 }
