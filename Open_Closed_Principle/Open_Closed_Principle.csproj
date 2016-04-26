@@ -47,6 +47,11 @@
     <Compile Include="Shared\TemperatureUnit.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Valid\AbstractTemperatureSensor.cs" />
+    <Compile Include="Valid\AvgTemperatureReader.cs" />
+    <Compile Include="Valid\OutdoorTemperatureSensor.cs" />
+    <Compile Include="Valid\IndoorTemperatureSensor.cs" />
+    <Compile Include="Valid\ITemperatureSensor.cs" />
     <Compile Include="Violation\AvgTemperatureReader.cs" />
     <Compile Include="Violation\IndoorTemperatureSensor.cs" />
     <Compile Include="Violation\OutdoorTemperatureSensor.cs" />

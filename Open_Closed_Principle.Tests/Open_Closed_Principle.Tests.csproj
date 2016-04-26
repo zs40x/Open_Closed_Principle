@@ -83,6 +83,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Temperature.cs" />
+    <Compile Include="Valid.cs" />
     <Compile Include="Violation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
